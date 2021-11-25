@@ -1,0 +1,194 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+.header-li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.header-li > a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-li > a:hover{
+    font-size: 25px;
+}
+
+.header-ul{
+    text-align: center;
+    margin: 53px 0;
+}
+
+.bg-section{
+    padding: 138px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./pexels-harrison-candlin-2441454\ 1.png');
+
+}
+
+.bg-text{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.button{
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 122px;
+    font-weight: bold;
+    font-size: 36px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+.section{
+    background: rgba(26, 110, 136, 0.71);
+}
+
+.text{
+    padding: 135px 0;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section2{
+    padding-top: 221px;
+    position: relative;
+}
+
+.text2{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: black;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.square{
+    background-color: #BFDEFB;
+    width: 178px;
+    height: 121px;
+    position: absolute;
+
+}
+
+.square:first-of-type{
+    top: 100px;
+    left: 0px;    
+
+}
+
+.square:nth-of-type(2){
+    left: 0px;
+    top: 346px;
+}
+
+.square:last-of-type{
+    right: 0px;
+    top: 235px;    
+}
+
+.section3{
+    padding-top: 216px;
+}
+
+.text3{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: black;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text3::before{
+    content:"";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #5C98AB;
+    left: 3px;
+    top: -48px;
+}
+
+.text3::after{
+    content:"";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #BFDEFB; 
+    right: -100px;
+    bottom: -68px;
+}
+
+.kontainer{
+    max-width: 420px;
+    margin: 123px auto;
+}
+
+.input-holder, input{
+    width: 100%;
+}
+
+.input-holder{
+    position: relative;
+    margin-bottom: 41px;
+}
+
+.input{
+    padding: 36px 0 12px 30px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+.input::placeholder{
+    color: black;
+    font-size: 20px;
+}
+
+.label{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: gray;
+}
+
+.button2{
+    background-color: #5C98AB;
+    border: none;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 21px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
